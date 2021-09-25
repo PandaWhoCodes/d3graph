@@ -247,6 +247,7 @@ def d3graph(
     out = dict()
     out["G"] = G
     out["path"] = config["path"] + "index.html"
+    out["json"] = json_data
     # Open the webbrowser
     # if config["showfig"]:
     #     webbrowser.open(os.path.abspath(out["path"]), new=2)
